@@ -1,7 +1,7 @@
 # Arabic Sentiment Analysis (TF-IDF + PyTorch)
 
 This project implements a binary sentiment classification system for Arabic reviews using traditional NLP feature engineering combined with a neural network classifier.
-The model was trained on a balanced dataset of ~92,000 Arabic reviews and optimized using Google Colab due to local memory constraints.
+The model was trained on a balanced dataset of ~150,000 Arabic reviews and optimized using Google Colab due to local memory constraints.
 
 ## Methodology
 
