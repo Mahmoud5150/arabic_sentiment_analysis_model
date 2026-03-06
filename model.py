@@ -13,7 +13,7 @@ Y = df["label"]
 
 vectorizer = TfidfVectorizer(
     ngram_range=(1,2),
-    max_features=50000,
+    max_features=70000,
     min_df=2,
     max_df=0.9,
     sublinear_tf=True
