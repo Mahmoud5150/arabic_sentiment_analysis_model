@@ -6,7 +6,7 @@ from sklearn.metrics import f1_score
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 
-df = pd.read_csv("sampled92k.csv")
+df = pd.read_csv("merged_no_dups.csv")
 
 X_text = df["clean_text"]
 Y = df["label"]
